@@ -24,11 +24,12 @@ func newDeck() deck {
 	return cards
 }
 
-/*
-func deal() {
+func deal(d deck, handSize int) (deck, deck) {
 
+	return d[:handSize], d[handSize:]
 }
 
+/*
 func shuffle() {
 
 }
