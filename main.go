@@ -16,4 +16,7 @@ func main() {
 	fmt.Println("Remaining Deck")
 	fmt.Println("***************************")
 	remainingDeck.print()
+
+	cards.saveToFile("my_cards")
+
 }
